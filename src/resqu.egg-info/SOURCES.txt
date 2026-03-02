@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/resqu/__init__.py
+src/resqu/__main__.py
+src/resqu/api.py
+src/resqu/utils.py
+src/resqu.egg-info/PKG-INFO
+src/resqu.egg-info/SOURCES.txt
+src/resqu.egg-info/dependency_links.txt
+src/resqu.egg-info/requires.txt
+src/resqu.egg-info/top_level.txt
