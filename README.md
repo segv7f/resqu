@@ -2,13 +2,7 @@
   <h1>🚀 Resqu</h1>
   <p><strong>Siêu tốc - Đơn giản - Mạnh mẽ</strong></p>
   <p>Thư viện Python để gọi API và tự động lưu kết quả chỉ với 1 dòng code</p>
-  
-  <p>
-    <img src="https://img.shields.io/pypi/v/resqu" alt="PyPI">
-    <img src="https://img.shields.io/pypi/pyversions/resqu" alt="Python versions">
-    <img src="https://img.shields.io/github/license/yourusername/resqu" alt="License">
-    <img src="https://img.shields.io/pypi/dm/resqu" alt="Downloads">
-  </p>
+
 </div>
 
 ---
@@ -201,15 +195,11 @@ MIT License - Free forever! 🎉
 🌟 Star us on GitHub!
 Nếu bạn thấy project hữu ích, hãy cho nó 1 ngôi sao ⭐ để ủng hộ nhé!
 
-<div align="center"> <p>Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a></p> <p> <a href="https://github.com/yourusername/resqu/issues">Report Bug</a> · <a href="https://github.com/yourusername/resqu/issues">Request Feature</a> </p> </div> ```
-Bonus: Thêm badge cho PyPI
-Để có các badge đẹp như trên, thêm vào README.md:
+<div align="center"> <p>Made with ❤️ by <a href="https://github.com/segv7f">Segv7f</a></p> <p> </p> </div> ```
 
-markdown
-![PyPI - Version](https://img.shields.io/pypi/v/resqu)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/resqu)
-![PyPI - License](https://img.shields.io/pypi/l/resqu)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/resqu)
+
+
+
 File setup.py đơn giản (nếu không dùng pyproject.toml):
 python
 from setuptools import setup, find_packages
@@ -220,12 +210,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="resqu",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="segv7f",
     description="Siêu tốc - Gọi API và tự động lưu kết quả chỉ với 1 dòng code",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/resqu",
+    url="https://github.com/segv7f/resqu",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
